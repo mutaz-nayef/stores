@@ -1,0 +1,38 @@
+:root {
+    --blue-color: #0075ff;
+    --blue-alt-color: #0d69d5;
+    --orange-color: #f59e0b;
+    --green-color: #22c55e;
+    --red-color: #f44336;
+    --grey-color: #888;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+}
+.content {
+    overflow: auto;
+}
+*:focus {
+    outline: none;
+}
+.page {
+    min-height: 100vh;
+}
+/* Start Sidebar  */
+.sidebar {
+    box-shadow: 0 0 10px #ddd;
+}
+.sidebar ul li a {
+    transition: 0.3s;
+}
+.sidebar ul li a span {
+    width: full;
+}
+
+
+/* End Sidebar  */
+/* Start Head  */
